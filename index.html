@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width">
+      <link rel = "stylesheet" href="reset.css">
+      <link rel = "stylesheet" href="style_1.css"> 
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">    
+      <title> Challenger_1 </title>
+      
+    </head>
+    
+    <body>
+      <header class="encabezado">
+
+        <div class="nombre-imagen">
+
+            <h1>Arlen Ayala</h1>
+            <img class="logo" src="IMAGENES/Vector.png" alt="logo de Alura">
+
+        </div>
+
+      </header>
+
+      <main>
+
+        <section class="input">
+
+            <div class="contenido-input">
+
+                <textarea id = "cuadro" class="cuadro"   cols="30" rows="10"   placeholder="ingrese el texto  aqui"></textarea>
+
+            </div>
+
+            <div class="evento">
+
+              <textarea id="mensaje" class="mensaje" cols="20" rows="10" ></textarea>
+              <label for="mensaje" class="mensaje-placeholder">Ningún mensaje fue encontrado<br>Ingresa el texto que deseas Encriptar o Desencriptar</label>
+
+              <button id="boton-copiar" class="boton-copiar">Copiar</button>
+        
+            </div>
+
+          
+        </section>
+
+    
+        <section class="botones-aviso">
+
+          <div class="aviso">
+
+            <p ><img src="IMAGENES/Vector (2).png" alt="logo-mensaje">Solo letras minusculas y sin acentos.</p>
+
+          </div>
+
+          <div class="button">
+
+              <button id="btn-encriptar" class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button> 
+              <button id="btn-desencriptar" class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>  
+
+          </div>
+
+        </section>
+
+      </main>
+
+    
+      <footer>
+
+        <p class="arlen">Creado por Arlen Ayala - Ingeniera Industrial</p>
+
+       <nav class="nav-links">
+
+          <a  href="https://github.com/arlenayala/challenger-one-5" target="_blank">
+          <img src="IMAGENES/logo-git-2.png" alt="Logo de Git" class="git" >
+  
+          <a href="https://www.linkedin.com/in/arlen-ayala-acu%C3%B1a-b1b3a674/" target="_blank">
+          <img src="IMAGENES/logo-linkedin.jpg" alt="Logo de linkedin" class="linkedin">
+
+       </nav>
+    
+      </footer>
+
+      <script src = "script.js"></script>
+
+    </body>  
+
+</html>
